@@ -9,6 +9,61 @@ header {
     padding: 10px 20px 0;
 }
 
+header a.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+header a.logo img {
+    width: 150%;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 5px;
+    margin: 0 30px;
+    width: 100px;
+}
+
+header ul li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff4e00;
+    color: #ff4e00;
+}
+
+.main-img {
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.text-box {
+    position: relative;
+    float: right;
+    right: 50px;
+    top: 100px;
+    padding: 10px 25px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
 body {
     background-color: bisque;
 }
