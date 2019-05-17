@@ -1,9 +1,13 @@
-.container {
-    max-width: 1150px;
-    margin: 0 auto;
-    background-color: #fff;
+body {
+    background-color: bisque;
 }
 
+.container {
+    max-width: 1150px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+/*--------------Header---------------------------*/
 header {
     min-height: 80px;
     padding: 10px 20px 0;
@@ -41,6 +45,7 @@ header ul li a:hover {
     color: #ff4e00;
 }
 
+/*--------------Article-main-img---------------------------*/
 .main-img {
     height: 400px;
     overflow: hidden;
@@ -64,6 +69,43 @@ header ul li a:hover {
     text-align: center;
 }
 
-body {
-    background-color: bisque;
+/*--------------Article---------------------------*/
+.row {
+    padding: 10px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.v250 {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.v250 h2 {
+    font-size: 1.85rem;
+    font-weight: normal;
+}
+
+.v250 p {
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.img-part figure .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-part figure img {
+    display: block;
+    margin: 0px auto;
 }
