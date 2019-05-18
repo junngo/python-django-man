@@ -69,7 +69,7 @@ header ul li a:hover {
     text-align: center;
 }
 
-/*--------------Article---------------------------*/
+/*--------------Article-main-contents---------------------------*/
 .row {
     padding: 10px;
     /* overflow: hidden; */
@@ -78,14 +78,19 @@ header ul li a:hover {
     align-items: center;
 }
 
-.v250 {
+.v250, v200 {
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.v250 h2 {
+.v200 {
+    height: 200px;
+}
+
+.v250 h2,
+.v200 h2 {
     font-size: 1.85rem;
     font-weight: normal;
 }
@@ -108,4 +113,59 @@ header ul li a:hover {
 .img-part figure img {
     display: block;
     margin: 0px auto;
+}
+
+/*--------------Article-footer---------------------------*/
+.gray-back {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.icon-box {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.icon-box i {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #c9c9c9;
+    margin: auto;
+}
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footlogo {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer ul li a:hover {
+    color:orange;
 }
